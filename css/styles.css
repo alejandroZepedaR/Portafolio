@@ -1,13 +1,20 @@
 header {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#AB0520), to(#0C234B));
   background-image: linear-gradient(to bottom, #AB0520, #0C234B);
   color: #E2E9E9;
   padding: 3em;
 }
 
 .name-box-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 .name-box {
@@ -34,4 +41,14 @@ a {
   text-decoration: none;
   color: #E2E9E9;
   padding: 5px;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+.slider {
+  margin-top: 3.6em;
+  margin-bottom: 3.6em;
+}
+
+.about-section {
+  background-color: #E2E9E9;
+}
+/*# sourceMappingURL=styles.css.map */
