@@ -1,11 +1,37 @@
+header {
+  background-image: linear-gradient(to bottom, #AB0520, #0C234B);
+  color: #E2E9E9;
+  padding: 3em;
+}
+
+.name-box-div {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.name-box {
+  border: solid 5px;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
 * {
   padding: 0;
   margin: 0;
-  font-size: 20px;
+  font-size: 25px;
 }
 
-body {
-  background: #FFFCF2;
-  font-family: Arial;
+h1 {
+  font-size: 1em;
 }
-/*# sourceMappingURL=styles.css.map */
+
+h2 {
+  font-size: 0.75em;
+}
+
+a {
+  text-decoration: none;
+  color: #E2E9E9;
+  padding: 5px;
+}/*# sourceMappingURL=styles.css.map */
