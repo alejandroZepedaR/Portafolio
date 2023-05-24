@@ -1,20 +1,13 @@
 header {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#AB0520), to(#0C234B));
   background-image: linear-gradient(to bottom, #AB0520, #0C234B);
   color: #E2E9E9;
   padding: 3em;
 }
 
 .name-box-div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  flex-direction: column;
+  align-content: center;
 }
 
 .name-box {
@@ -51,4 +44,25 @@ a {
 .about-section {
   background-color: #E2E9E9;
 }
-/*# sourceMappingURL=styles.css.map */
+
+.projects-section {
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+  background-color: #0C234B;
+  color: #E2E9E9;
+}
+.projects-section img {
+  margin-top: 1em;
+  width: 100%;
+}
+
+.card-info {
+  display: flex;
+  background-color: #AB0520;
+  flex-direction: column;
+  padding-top: 0.5em;
+  margin-bottom: 1em;
+}
+.card-info p {
+  font-size: 0.75em;
+}/*# sourceMappingURL=styles.css.map */
