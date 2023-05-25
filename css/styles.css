@@ -36,6 +36,16 @@ a {
   padding: 5px;
 }
 
+button {
+  background: #0C234B;
+  color: #fff;
+  padding: 0.5em;
+  border: none;
+}
+button:hover {
+  background: #AB0520;
+}
+
 .slider {
   margin-top: 3.6em;
   margin-bottom: 3.6em;
@@ -65,4 +75,37 @@ a {
 }
 .card-info p {
   font-size: 0.75em;
+}
+
+.contact {
+  padding-top: 2em;
+}
+.contact h1 {
+  color: #0C234B;
+}
+
+.contact-form {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+form input {
+  border: none;
+  border-bottom: solid #AB0520;
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 0.9em;
+  font-size: 0.9em;
+}
+form input:focus-visible {
+  border: none;
+}
+form textarea {
+  border: solid #AB0520;
+  padding: 0.5em;
+  width: 100%;
+  font-size: 0.9em;
+  margin-bottom: 0.9em;
 }/*# sourceMappingURL=styles.css.map */
