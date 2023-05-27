@@ -46,6 +46,12 @@ button:hover {
   background: #AB0520;
 }
 
+footer {
+  background-color: #AB0520;
+  color: #E2E9E9;
+  padding: 1em;
+}
+
 .slider {
   margin-top: 3.6em;
   margin-bottom: 3.6em;
