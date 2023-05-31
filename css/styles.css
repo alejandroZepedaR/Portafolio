@@ -194,4 +194,40 @@ form textarea {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+.filter-button {
+  font-size: 1.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1em;
+  height: 2em;
+  background-color: #0C234B;
+  color: #fff;
+  margin-right: 2em;
+}
+
+.filter-button p {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.filter-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: end;
+      align-content: end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
 /*# sourceMappingURL=styles.css.map */
