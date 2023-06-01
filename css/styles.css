@@ -236,4 +236,14 @@ form textarea {
 }
 .values-introduction p {
   font-size: 1.1em;
+}
+
+.end-p {
+  display: flex;
+  align-items: end;
+}
+
+.center-p {
+  display: flex;
+  align-items: center;
 }/*# sourceMappingURL=styles.css.map */
