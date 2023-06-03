@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Afilube Website",
-        "technologies": ["HTML", "CSS", "JAVASCRIPT"],
+        "technologies": ["HTML", "CSS"],
         "description": "I built a website for a mechanical workshop",
         "project-page":"http://www.tallerafilube.com",
         "image": "img/1.png"

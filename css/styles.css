@@ -132,8 +132,15 @@ form textarea {
   margin-top: 1em;
   margin-bottom: 1em;
 }
+.project-long-card:hover {
+  background-color: #0C234B;
+}
 .project-long-card img {
   width: 25%;
+}
+
+.project-container {
+  cursor: pointer;
 }
 
 .project-details {
@@ -148,6 +155,9 @@ form textarea {
 .project-details h2 {
   font-size: 1em;
 }
+.project-details h3 {
+  font-size: 0.7em;
+}
 
 .project-description {
   display: flex;
@@ -156,6 +166,7 @@ form textarea {
 }
 
 .filter-button {
+  cursor: pointer;
   font-size: 1.5em;
   display: flex;
   align-content: center;
@@ -166,6 +177,9 @@ form textarea {
   background-color: #0C234B;
   color: #fff;
   margin-right: 2em;
+}
+.filter-button:hover {
+  background-color: #AB0520;
 }
 .filter-button p {
   margin-bottom: 0;
