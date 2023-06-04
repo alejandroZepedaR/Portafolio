@@ -21,6 +21,21 @@ header {
   margin: 0;
   font-size: 25px;
 }
+@media screen and (max-width: 1000px) {
+  * {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 810px) {
+  * {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 450px) {
+  * {
+    font-size: 14px;
+  }
+}
 
 h1 {
   font-size: 1em;
