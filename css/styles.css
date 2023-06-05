@@ -275,4 +275,9 @@ form textarea {
 .center-p {
   display: flex;
   align-items: center;
+}
+
+.personal-img-div {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=styles.css.map */
