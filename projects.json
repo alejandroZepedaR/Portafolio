@@ -5,7 +5,7 @@
         "technologies": ["HTML", "CSS"],
         "description": "I built a website for a mechanical workshop",
         "project-page":"http://www.tallerafilube.com",
-        "image": "img/1.png"
+        "image": "img/projects/Afilube.png"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "technologies": ["HTML", "CSS"],
         "description": "College eCommerce project showcasing brand development, marketing, pricing, and business strategies for successful ecommerce launch.",
         "project-page": "https://alejandrozepedar.github.io/FunlaxWebsite/",
-        "image": "img/1.png"
+        "image": "img/projects/Funlax.png"
     }
 
 ]

@@ -140,6 +140,7 @@ form textarea {
 }
 
 .project-long-card {
+  height: 7em;
   display: flex;
   background-color: #AB0520;
   padding: 0;
