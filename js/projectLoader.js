@@ -5,26 +5,26 @@ fetch('projects.json')
     // Get the container where you want to add the projects
     let row = document.querySelector('.project-container');
 
-    // Collect all unique technologies for filter options
-    let technologies = new Set();
+    // Collect all unique project types for filter options
+    let projectTypes = new Set();
 
     // For each project in your data
     projects.forEach(project => {
-      // Add each technology to the Set
-      project.technologies.forEach(tech => technologies.add(tech));
+      // Add each project type to the Set
+      project['project-type'].forEach(type => projectTypes.add(type));
     });
 
     // Add the filter options to the modal
     let filterOptions = document.getElementById('filterOptions');
-    technologies.forEach(tech => {
+    projectTypes.forEach(type => {
       let option = document.createElement('input');
       option.type = "checkbox";
-      option.id = tech;
-      option.value = tech;
+      option.id = type;
+      option.value = type;
 
       let label = document.createElement('label');
-      label.htmlFor = tech;
-      label.appendChild(document.createTextNode(tech));
+      label.htmlFor = type;
+      label.appendChild(document.createTextNode(type));
 
       filterOptions.appendChild(option);
       filterOptions.appendChild(label);
@@ -38,8 +38,8 @@ fetch('projects.json')
 
       // For each project in your data
       projects.forEach(project => {
-        // If a filter is applied, skip this project if it doesn't use any of the selected technologies
-        if (filter && !filter.some(tech => project.technologies.includes(tech))) return;
+        // If a filter is applied, skip this project if it doesn't use any of the selected project types
+        if (filter && !filter.some(type => project['project-type'].includes(type))) return;
 
         // Create a new div for the project
         let projectCard = document.createElement('div');
@@ -79,16 +79,17 @@ fetch('projects.json')
     // Add event listener to the "Apply" button in the modal
     let applyFilterButton = document.getElementById('applyFilter');
     applyFilterButton.addEventListener('click', () => {
-      // Get the selected technologies
-      let selectedTechnologies = Array.from(filterOptions.getElementsByTagName('input'))
+      // Get the selected project types
+      let selectedProjectTypes = Array.from(filterOptions.getElementsByTagName('input'))
         .filter(input => input.checked)
         .map(input => input.value);
 
       // Apply the filter
-      displayProjects(selectedTechnologies);
+      displayProjects(selectedProjectTypes);
 
       // Hide the modal
       bootstrap.Modal.getInstance(document.getElementById('filterModal')).hide();
     });
   });
+
 

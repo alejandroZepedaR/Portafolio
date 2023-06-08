@@ -3,6 +3,7 @@
         "id": 1,
         "name": "Afilube Website",
         "technologies": ["HTML", "CSS"],
+        "project-type": ["All", "Website"],
         "description": "I built a website for a mechanical workshop",
         "project-page":"http://www.tallerafilube.com",
         "image": "img/projects/Afilube.png"
@@ -11,9 +12,19 @@
         "id": 2,
         "name": "Funlax Website",
         "technologies": ["HTML", "CSS"],
+        "project-type": ["All", "Website"],
         "description": "College eCommerce project showcasing brand development, marketing, pricing, and business strategies for successful ecommerce launch.",
         "project-page": "https://alejandrozepedar.github.io/FunlaxWebsite/",
         "image": "img/projects/Funlax.png"
+    },
+    {
+        "id": 3,
+        "name": "Portafolio Website",
+        "technologies": ["HTML", "CSS", "Javascript"],
+        "project-type": ["All", "Website"],
+        "description": "My website to show the personal projects I've worked on",
+        "project-page": "https://github.com/alejandroZepedaR/Portafolio",
+        "image": "img/projects/Portafolio.png"
     }
 
 ]
