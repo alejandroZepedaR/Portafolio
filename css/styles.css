@@ -152,7 +152,10 @@ form textarea {
   background-color: #0C234B;
 }
 .project-long-card img {
-  width: 25%;
+  padding-left: 10px;
+  aspect-ratio: 1/1;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .project-container {
