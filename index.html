@@ -8,6 +8,29 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>Alejandro Zepeda Portafolio</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init('gfKq5OCq7YR8O6mc8');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contactForm').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                this.contact_number.value = Math.random() * 100000 | 0;
+                // these IDs from the previous steps
+                emailjs.sendForm('service_zl53cxo', 'template_49tucnv', this)
+                    .then(function() {
+                        alert('The message was sent successfully!!');
+                        event.target.reset();
+                    }, function(error) {
+                        alert('FAILED...', error);
+                    });
+            });
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -142,10 +165,11 @@
             <div class="row contact-form">
                 <div class="col-6">
                     <form id="contactForm" action="">
-                        <input type="text" placeholder="Name:">
-                        <input type="email" placeholder="Email:">
-                        <textarea name="message" placeholder="Message:"></textarea>
-                        <button type="submit">SUBMIT</button>
+                        <input type="hidden" name="contact_number">
+                        <input id="user_name" name="user_name" type="text" placeholder="Name:">
+                        <input id="user_email" name="user_email" type="email" placeholder="Email:">
+                        <textarea id="message" name="message" placeholder="Message:"></textarea>
+                        <button id="submitBtn" value="SUBMIT" type="submit">SUBMIT</button>
                     </form>
                 </div>
             </div>
