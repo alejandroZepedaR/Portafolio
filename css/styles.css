@@ -58,6 +58,9 @@ a {
   color: #E2E9E9;
   padding: 5px;
 }
+a:hover {
+  color: #fff;
+}
 
 button {
   background: #0C234B;
@@ -91,8 +94,12 @@ footer {
   color: #E2E9E9;
 }
 .projects-section img {
+  background-color: #E2E9E9;
   margin-top: 1em;
   width: 100%;
+  aspect-ratio: 4/3;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .card-info {
