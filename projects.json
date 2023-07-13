@@ -1,6 +1,16 @@
 [
     {
         "id": 1,
+        "name": "JsJunction",
+        "technologies": ["Javascript"],
+        "project-type": ["All", "Website"],
+        "description": "My website to show the personal projects I've worked on",
+        "project-page": "https://alejandrozepedar.github.io/JsJunction/",
+        "code-page": "https://github.com/alejandroZepedaR/JsJunction",
+        "image": "img/projects/Portafolio.png"
+    },
+    {
+        "id": 2,
         "name": "Afilube Website",
         "technologies": ["HTML", "CSS"],
         "project-type": ["All", "Website"],
@@ -9,7 +19,7 @@
         "image": "img/projects/Afilube.png"
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Funlax Website",
         "technologies": ["HTML", "CSS"],
         "project-type": ["All", "Website"],
@@ -18,7 +28,7 @@
         "image": "img/projects/Funlax.png"
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "Portafolio Website",
         "technologies": ["HTML", "CSS", "Javascript"],
         "project-type": ["All", "Website"],
