@@ -4,10 +4,10 @@
         "name": "JsJunction",
         "technologies": ["Javascript"],
         "project-type": ["All", "Website"],
-        "description": "My website to show the personal projects I've worked on",
+        "description": "A collection of javascript tools that I've built myself and use everyday.",
         "project-page": "https://alejandrozepedar.github.io/JsJunction/",
         "code-page": "https://github.com/alejandroZepedaR/JsJunction",
-        "image": "img/projects/Portafolio.png"
+        "image": "img/projects/JsJunction.png"
     },
     {
         "id": 2,
