@@ -16,20 +16,32 @@
     </script>
     <script type="text/javascript">
         window.onload = function() {
-            document.getElementById('contactForm').addEventListener('submit', function(event) {
-                event.preventDefault();
-                // generate a five digit number for the contact_number variable
-                this.contact_number.value = Math.random() * 100000 | 0;
-                // these IDs from the previous steps
-                emailjs.sendForm('service_zl53cxo', 'template_49tucnv', this)
-                    .then(function() {
-                        alert('The message was sent successfully!!');
-                        event.target.reset();
-                    }, function(error) {
-                        alert('FAILED...', error);
-                    });
-            });
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        
+        // Get the values entered by the user
+        var name = document.getElementById('user_name').value.trim();
+        var email = document.getElementById('user_email').value.trim();
+        
+        // Check if the name and email fields are empty
+        if (name === '' || email === '') {
+            alert('Please enter your name and email.');
+            return; // Prevent the form from being submitted
         }
+        
+        // Generate a five-digit number for the contact_number variable
+        this.contact_number.value = Math.random() * 100000 | 0;
+        
+        // Use emailjs to send the form
+        emailjs.sendForm('service_zl53cxo', 'template_49tucnv', this)
+            .then(function() {
+                alert('The message was sent successfully!');
+                event.target.reset();
+            }, function(error) {
+                alert('FAILED: ' + error);
+            });
+    });
+}
     </script>
 </head>
 <body>
@@ -112,17 +124,24 @@
                 </div>
             </div>
             <div class="row">
+                <a class="project-card col-sm-6 col-md-4 " href="https://alejandrozepedar.github.io/JsJunction/">
+                    <img src="img/projects/JsJunction.png" alt="JSJunction">
+                    <div class="card-info text-center">
+                        <h2>JsJunction</h2>
+                        <p>Javascript</p>
+                    </div>
+                </a>
                 <a class="project-card col-sm-6 col-md-4" href="http://www.tallerafilube.com">
                     <img src="img/projects/Afilube.png" alt="Afilube_logo">
                     <div class="card-info text-center">
-                        <h1>Afilube Website</h1>
+                        <h2>Afilube Website</h2>
                         <p>HTML / CSS</p>
                     </div>
                 </a>
                 <a class="project-card col-sm-6 col-md-4 " href="https://alejandrozepedar.github.io/FunlaxWebsite/">
                     <img src="img/projects/Funlax.png" alt="FunalxLogo">
                     <div class="card-info text-center">
-                        <h1>Funlax Website</h1>
+                        <h2>Funlax Website</h2>
                         <p>HTML / CSS</p>
                     </div>
                 </a>
