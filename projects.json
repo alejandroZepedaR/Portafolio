@@ -2,38 +2,39 @@
     {
         "id": 1,
         "name": "JsJunction",
-        "technologies": ["Javascript"],
+        "technologies": ["Javascript", "HTML", "CSS"],
         "project-type": ["All", "Website"],
         "description": "A collection of javascript tools that I've built myself and use everyday.",
-        "project-page": "https://alejandrozepedar.github.io/JsJunction/",
-        "code-page": "https://github.com/alejandroZepedaR/JsJunction",
+        "projectPage": "https://alejandrozepedar.github.io/JsJunction/",
+        "codePage": "https://github.com/alejandroZepedaR/JsJunction",
         "image": "img/projects/JsJunction.png"
     },
     {
         "id": 2,
         "name": "Afilube Website",
         "technologies": ["HTML", "CSS"],
-        "project-type": ["All", "Website"],
+        "project-type": ["Website"],
         "description": "I built a website for a mechanical workshop",
-        "project-page":"http://www.tallerafilube.com",
+        "projectPage":"http://www.tallerafilube.com",
         "image": "img/projects/Afilube.png"
     },
     {
         "id": 3,
         "name": "Funlax Website",
         "technologies": ["HTML", "CSS"],
-        "project-type": ["All", "Website"],
+        "project-type": ["Website"],
         "description": "College eCommerce project showcasing brand development, marketing, pricing, and business strategies for successful ecommerce launch.",
-        "project-page": "https://alejandrozepedar.github.io/FunlaxWebsite/",
+        "projectPage": "https://alejandrozepedar.github.io/FunlaxWebsite/",
+        "code-page":"https://github.com/alejandroZepedaR/FunlaxWebsite",
         "image": "img/projects/Funlax.png"
     },
     {
         "id": 4,
         "name": "Portafolio Website",
         "technologies": ["HTML", "CSS", "Javascript"],
-        "project-type": ["All", "Website"],
+        "project-type": ["Website"],
         "description": "My website to show the personal projects I've worked on",
-        "project-page": "https://github.com/alejandroZepedaR/Portafolio",
+        "projectPage": "https://github.com/alejandroZepedaR/Portafolio",
         "image": "img/projects/Portafolio.png"
     }
 
