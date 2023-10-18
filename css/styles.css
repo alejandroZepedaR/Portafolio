@@ -6,6 +6,9 @@ nav{
 body{
     background-color: #e9ecef;
 }
+strong{
+    color: rgb(61,82,213) ;
+}
 a{
     text-decoration: none;
     color: #f8f9fa;
