@@ -10,8 +10,11 @@ function renderProjects(projects){
         const projectCard = document.createElement('article');
         projectCard.className = "project-card";
         projectCard.innerHTML = `
-            <img src=${project.image} alt=${project.name}>
-            <div>
+            <div class="project-card-img">
+                <img src=${project.image} alt=${project.name}>
+            </div>
+            <div class="project-card-info">
+                <h2>${project.name}</h2>
                 <p>${project.description}</p>
                 <a class="btn btn-primary" href=${project.projectPage} target="_blank">Visit</a>
                 <button class="btn btn-secondary" id="button-${project.id}" >More Details</button>

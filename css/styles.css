@@ -64,6 +64,9 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
 }
 .compsci{
     color: #ced4da;
@@ -75,6 +78,12 @@ button{
 #tools{
     padding-bottom: 5px;
     border-bottom: 4px solid #212529;
+}
+footer{
+    background-color: #212529;
+}
+footer p {
+    color: #ced4da;
 }
 
 section{
