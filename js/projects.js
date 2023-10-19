@@ -25,7 +25,7 @@ function renderProjects(projects){
         let button = document.getElementById(buttonID);
 
         button.addEventListener('click', ()=>{
-
+            alert("Sorry I'm still working on this feature");
         })
     })
 }

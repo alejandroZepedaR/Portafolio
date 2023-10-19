@@ -13,6 +13,10 @@ for(let i = 0; i < iconSpans.length; i++){
     });
 }
 
+function downloadResume(){
+    window.open('./Resume.pdf', '_blank');
+}
+
 function redirect(id){
     switch (id) {
         case 'javascript-icon':
