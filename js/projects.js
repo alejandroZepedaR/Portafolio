@@ -16,8 +16,10 @@ function renderProjects(projects){
             <div class="project-card-info">
                 <h2>${project.name}</h2>
                 <p>${project.description}</p>
-                <a class="btn btn-primary" href=${project.projectPage} target="_blank">Visit</a>
-                <button class="btn btn-secondary" id="button-${project.id}" >More Details</button>
+                <div class="buttons-div">
+                    <a class="btn btn-primary" href=${project.projectPage} target="_blank">Visit</a>
+                    <button class="btn btn-secondary" id="button-${project.id}" >More Details</button>
+                </div>
             </div>
             `
         section.appendChild(projectCard);
