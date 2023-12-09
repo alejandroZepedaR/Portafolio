@@ -1,5 +1,14 @@
 [
     {
+        "id": 5,
+        "name": "Drinktective",
+        "technologies": ["ReactJS"],
+        "project-type": ["All", "Website"],
+        "description": "Web app to search for cocktail recipes and save them. using the CocktailDB API",
+        "projectPage": "https://drinktective.vercel.app/",
+        "image": "img/projects/drinktective.jpg"
+    },
+    {
         "id": 1,
         "name": "JsJunction",
         "technologies": ["Javascript", "HTML", "CSS"],
