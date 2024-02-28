@@ -9,6 +9,15 @@
         "image": "img/projects/drinktective.jpg"
     },
     {
+        "id": 6,
+        "name": "NFL Web Scrapper",
+        "technologies": ["Python"],
+        "project-type": ["All", "script"],
+        "description": "Web Scrapping tool to get statistics from the official NFL Page",
+        "projectPage": "https://github.com/alejandroZepedaR/NFL_Scrapper",
+        "image": "img/projects/nfl.png"
+    },
+    {
         "id": 1,
         "name": "JsJunction",
         "technologies": ["Javascript", "HTML", "CSS"],
